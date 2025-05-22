@@ -5,8 +5,8 @@ services:
     image: postgres:15
     environment:
       - POSTGRES_DB=casinodb
-      - POSTGRES_USER=
-      - POSTGRES_PASSWORD=
+      - POSTGRES_USER=postgres.bgeqdxcyjkrrdndwocud
+      - POSTGRES_PASSWORD=VfM50j4ihz6QsljZ
     ports:
       - "5432:5432"
     volumes:
@@ -20,7 +20,7 @@ services:
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://aws-0-eu-west-3.pooler.supabase.com:6543/postgres
       - SPRING_DATASOURCE_USERNAME=postgres.bgeqdxcyjkrrdndwocud
-      - SPRING_DATASOURCE_PASSWORD=password=VfM50j4ihz6QsljZ
+      - SPRING_DATASOURCE_PASSWORD=VfM50j4ihz6QsljZ
       - STRIPE_API_KEY=sk_test_51RGeOjPsNS1uIdSUCXQxfhkxuynIR7mXl3ANwYU4nD5Uo6LyNwAu5sk1FqiThSfAhODCPyyC6epwC48ozcMs3Dse00OiQTBLjy
       - STRIPE_WEBHOOK_SECRET=whsec_YOUR_WEBHOOK_SECRET
       - STRIPE_PUBLISHABLE_KEY=pk_test_51RGeOjPsNS1uIdSU80veezvYOkfGhCObUFHhQGmMJgDtljPRtMpflSTatTKF10VEIHeNS0LqbJCBtL4WDFRgRDTY00mnSEp14e
