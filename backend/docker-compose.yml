@@ -19,7 +19,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://aws-0-eu-west-3.pooler.supabase.com:6543/postgres
-      - SPRING_DATASOURCE_USERNAME=postgres.bgeqdxcyjkrrdndwocud&
+      - SPRING_DATASOURCE_USERNAME=postgres.bgeqdxcyjkrrdndwocud
       - SPRING_DATASOURCE_PASSWORD=password=VfM50j4ihz6QsljZ
       - STRIPE_API_KEY=sk_test_51RGeOjPsNS1uIdSUCXQxfhkxuynIR7mXl3ANwYU4nD5Uo6LyNwAu5sk1FqiThSfAhODCPyyC6epwC48ozcMs3Dse00OiQTBLjy
       - STRIPE_WEBHOOK_SECRET=whsec_YOUR_WEBHOOK_SECRET
