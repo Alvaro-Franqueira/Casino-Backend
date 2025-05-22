@@ -80,7 +80,7 @@ public class SecurityConfig {
             "http://172.19.4.31",
             "http://172.19.4.31:3000",
             "https://casino-frontend-750j7h3gj-alvaro-franqueiras-projects.vercel.app",
-            "https://casino-frontend.vercel.app"
+            "https://casino-frontend-theta.vercel.app/"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
